@@ -19,9 +19,13 @@ We tried to test our server methods and publishes with [Velocity](http://velocit
 
 ```sh
 $ npm install
+```
+Start sample meteor server automatically before start tests.
+Note : it's take 2 min to check meteor server status test
+```sh
 $ grunt test
 ```
-If want to manually start meteor server set AUTO_START_METEOR=0
+Start sample meteor server manually before start tests. set AUTO_START_METEOR=0
 ```sh
 $ AUTO_START_METEOR=0 grunt test
 ```
