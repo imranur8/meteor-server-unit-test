@@ -1,0 +1,22 @@
+{
+  "name": "meteor-server-unit-test",
+  "version": "1.0.0",
+  "description": "Meteor server unit test with jasmine,nodejs and ddp client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:imran-aspire/meteor-server-unit-test.git"
+  },
+  "author": "imran",
+  "license": "ISC",
+  "dependencies": {
+    "ddp": "^0.11.0",
+    "ddp-login": "^1.0.9",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-jasmine-nodejs": "^1.4.3"
+  }
+}
