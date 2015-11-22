@@ -2,9 +2,9 @@
 
 This is an example scaffold for Meteor server unit testing with Nodejs, Jasmine and Meteor DDP client. We'll test Meteor server methods and publishes.  npm packages list use in this example
 
-- [grunt-jasmine-nodejs](#https://github.com/onury/grunt-jasmine-nodejs)
-- [node-ddp-client](#https://github.com/oortcloud/node-ddp-client)
-- [ddp-login](#https://github.com/vsivsi/ddp-login)
+- [grunt-jasmine-nodejs](https://github.com/onury/grunt-jasmine-nodejs)
+- [node-ddp-client](https://github.com/oortcloud/node-ddp-client)
+- [ddp-login](https://github.com/vsivsi/ddp-login)
 
 
 ### Approach
@@ -12,7 +12,7 @@ This is an example scaffold for Meteor server unit testing with Nodejs, Jasmine 
 In this scaffold, I use external Nodejs server to test Meteor app with jasmine and Meteor DDP client. It's a simple concept, Meteor client need to connect with DDP protocol, we are testing all Meteor server unit test by this DDP protocol.
 
 ### Why this approach
-We tried to test our server methods and publishes with [Velocity](#http://velocity.readme.io) but server unit test is not ready yet and even there is no way to authenticate a user in the server for testing purpose. Meteor need a client to authenticate in the server. So we also tried with client unit test in velocity, to test server methods and publishes but it's not stable and the way is very complex, you need to maintain lots of sequence of setTimeout. Right now testing is  fast and fun with this approach 
+We tried to test our server methods and publishes with [Velocity](http://velocity.readme.io) but server unit test is not ready yet and even there is no way to authenticate a user in the server for testing purpose. Meteor need a client to authenticate in the server. So we also tried with client unit test in velocity, to test server methods and publishes but it's not stable and the way is very complex, you need to maintain lots of sequence of setTimeout. Right now testing is  fast and fun with this approach 
 
 ### Installation
 
